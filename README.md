@@ -1,0 +1,1 @@
+[Underscore.m](http://underscorem.org/) の()による呼び出し方法を小さくまとめてみました。

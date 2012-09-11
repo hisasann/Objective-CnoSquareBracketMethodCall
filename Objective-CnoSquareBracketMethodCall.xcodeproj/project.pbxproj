@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46490314E72DA69624467E2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46490981FB98AF88BF9615A4 /* UIKit.framework */; };
+		46490382A2A3A0EA6D774FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46490A00D371B915C89D7CC2 /* main.m */; };
+		464903EDE5625DFEE943968E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4649021ED7831AA52E6FF636 /* AppDelegate.m */; };
+		46490587BA47AC3D70DA0CAB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46490E2AB261FD14AA29F2A1 /* MainStoryboard.storyboard */; };
+		4649062099ADF419D0C6936C /* Hoge.m in Sources */ = {isa = PBXBuildFile; fileRef = 464902CEFFAA71CDE2F01275 /* Hoge.m */; };
+		4649069DF60F3648BAB3DB46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649016010DC64E65EE5521F /* CoreGraphics.framework */; };
+		464909EF684E39C9EB51564E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4649026F6D1C34D33A10036D /* ViewController.m */; };
+		46490CF368480EAF42D03A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464908EAB2FD41A6C6F7B3DF /* Foundation.framework */; };
+		46490F32124BFD0F1472AB55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46490C56DF02EA8EBB2DF5C5 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46490101764437B59190FB15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4649016010DC64E65EE5521F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4649021ED7831AA52E6FF636 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4649026F6D1C34D33A10036D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		464902CEFFAA71CDE2F01275 /* Hoge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hoge.m; sourceTree = "<group>"; };
+		464904EFDE5D1EC1650D371A /* Objective-CnoSquareBracketMethodCall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "Objective-CnoSquareBracketMethodCall-Info.plist"; sourceTree = "<group>"; };
+		4649050493AD9C34E5105BD0 /* Hoge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hoge.h; sourceTree = "<group>"; };
+		4649078A5C680709D87F3AD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		464907D63600B8DF9A5FAF5B /* Objective-CnoSquareBracketMethodCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-CnoSquareBracketMethodCall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		464908EAB2FD41A6C6F7B3DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46490981FB98AF88BF9615A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46490996370AD74F606DEF8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46490A00D371B915C89D7CC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46490C02F7AC7A271811D83D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		46490FBA4D7FC61C65DAE3E5 /* Objective-CnoSquareBracketMethodCall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-CnoSquareBracketMethodCall-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464905F98EDD1BA38E064081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46490314E72DA69624467E2D /* UIKit.framework in Frameworks */,
+				46490CF368480EAF42D03A12 /* Foundation.framework in Frameworks */,
+				4649069DF60F3648BAB3DB46 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46490061BEE10717C3BDE7CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464907D63600B8DF9A5FAF5B /* Objective-CnoSquareBracketMethodCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464900C0FDB260E683CE70D8 = {
+			isa = PBXGroup;
+			children = (
+				46490061BEE10717C3BDE7CF /* Products */,
+				46490648858B23ACD1D8B032 /* Frameworks */,
+				464909DA7ADC38F408AC5132 /* Objective-CnoSquareBracketMethodCall */,
+			);
+			sourceTree = "<group>";
+		};
+		46490648858B23ACD1D8B032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4649016010DC64E65EE5521F /* CoreGraphics.framework */,
+				464908EAB2FD41A6C6F7B3DF /* Foundation.framework */,
+				46490981FB98AF88BF9615A4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		464906A7E39B3288FD050A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46490FBA4D7FC61C65DAE3E5 /* Objective-CnoSquareBracketMethodCall-Prefix.pch */,
+				46490A00D371B915C89D7CC2 /* main.m */,
+				46490C56DF02EA8EBB2DF5C5 /* InfoPlist.strings */,
+				464904EFDE5D1EC1650D371A /* Objective-CnoSquareBracketMethodCall-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		464909DA7ADC38F408AC5132 /* Objective-CnoSquareBracketMethodCall */ = {
+			isa = PBXGroup;
+			children = (
+				4649050493AD9C34E5105BD0 /* Hoge.h */,
+				464902CEFFAA71CDE2F01275 /* Hoge.m */,
+				4649026F6D1C34D33A10036D /* ViewController.m */,
+				4649078A5C680709D87F3AD2 /* ViewController.h */,
+				46490E2AB261FD14AA29F2A1 /* MainStoryboard.storyboard */,
+				4649021ED7831AA52E6FF636 /* AppDelegate.m */,
+				46490996370AD74F606DEF8E /* AppDelegate.h */,
+				464906A7E39B3288FD050A64 /* Supporting Files */,
+			);
+			path = "Objective-CnoSquareBracketMethodCall";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46490569C0E3B46C223E5252 /* Objective-CnoSquareBracketMethodCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46490E4554BC96AC98AB1A6A /* Build configuration list for PBXNativeTarget "Objective-CnoSquareBracketMethodCall" */;
+			buildPhases = (
+				46490F582C92B67499240D44 /* Sources */,
+				464905F98EDD1BA38E064081 /* Frameworks */,
+				46490F2113E7A796A9F1B3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objective-CnoSquareBracketMethodCall";
+			productName = "Objective-CnoSquareBracketMethodCall";
+			productReference = 464907D63600B8DF9A5FAF5B /* Objective-CnoSquareBracketMethodCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46490785116B0797BE26E3AA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 46490A1988F2C908755B8B0C /* Build configuration list for PBXProject "Objective-CnoSquareBracketMethodCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 464900C0FDB260E683CE70D8;
+			productRefGroup = 46490061BEE10717C3BDE7CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46490569C0E3B46C223E5252 /* Objective-CnoSquareBracketMethodCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46490F2113E7A796A9F1B3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46490F32124BFD0F1472AB55 /* InfoPlist.strings in Resources */,
+				46490587BA47AC3D70DA0CAB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46490F582C92B67499240D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46490382A2A3A0EA6D774FF5 /* main.m in Sources */,
+				464903EDE5625DFEE943968E /* AppDelegate.m in Sources */,
+				464909EF684E39C9EB51564E /* ViewController.m in Sources */,
+				4649062099ADF419D0C6936C /* Hoge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46490C56DF02EA8EBB2DF5C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46490101764437B59190FB15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		46490E2AB261FD14AA29F2A1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46490C02F7AC7A271811D83D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4649033543547E2A46C35B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objective-CnoSquareBracketMethodCall/Objective-CnoSquareBracketMethodCall-Prefix.pch";
+				INFOPLIST_FILE = "Objective-CnoSquareBracketMethodCall/Objective-CnoSquareBracketMethodCall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4649035DB59B49FFA9A5014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objective-CnoSquareBracketMethodCall/Objective-CnoSquareBracketMethodCall-Prefix.pch";
+				INFOPLIST_FILE = "Objective-CnoSquareBracketMethodCall/Objective-CnoSquareBracketMethodCall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46490A62452BC75E27EA445B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46490FDB40F55D2AFEF300EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46490A1988F2C908755B8B0C /* Build configuration list for PBXProject "Objective-CnoSquareBracketMethodCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46490A62452BC75E27EA445B /* Release */,
+				46490FDB40F55D2AFEF300EB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46490E4554BC96AC98AB1A6A /* Build configuration list for PBXNativeTarget "Objective-CnoSquareBracketMethodCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4649033543547E2A46C35B16 /* Release */,
+				4649035DB59B49FFA9A5014C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46490785116B0797BE26E3AA /* Project object */;
+}
